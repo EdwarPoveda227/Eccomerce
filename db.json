@@ -1,0 +1,13 @@
+{
+    "producto": [
+      {
+        "name": "controlXYZ",
+        "imageUrl": "https://www.google.com/search?q=consola&tbm=isch&tbs=isz:m&rlz=1C1VDKB_esCO1033CO1033&hl=es&sa=X&ved=0CAMQpwVqFwoTCPCb1a3i5v4CFQAAAAAdAAAAABAD&biw=1581&bih=829#imgrc=yxlbuH6zKKPHsM",
+        "price": "60,60",
+        "id": 1,
+        "alt": "producto",
+        "section": "Consolas",
+        "description": ""
+      }
+    ]
+}

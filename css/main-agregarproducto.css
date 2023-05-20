@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.agregarproducto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 70vh;
+	background-color:#E5E5E5;
+
+}
+.cajainputs{
+	width: 423px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	text-align: center;
+
+}
+.cajainputs__texto{
+	font-size: 2rem;
+}
+.cajainputs__inputuno{
+	height: 3rem;
+	border: none;
+	padding-left: 0.5rem;
+
+}
+.cajainputs__inputdos{
+	height: 3rem;
+	border: none;
+	padding-left: 0.5rem;
+}
+
+.cajainputs__input--des{
+    height: 4rem;
+	border: none;
+	padding-left: 0.5rem;
+
+}
+.cajainputs__boton{
+	height: 3rem;
+	background-color: #2A7AE4;
+	color: white;
+	border: none;
+}
+
+
+
+@media only screen and (max-width: 768px){
+     .cajainputs{
+		gap: 1rem;
+	}
+
+
+
+}
+@media only screen and (max-width: 360px){
+	.cajainputs{
+		width: 300px;
+		gap: 1rem;
+	}
+}

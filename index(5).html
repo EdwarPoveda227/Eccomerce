@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/lista-cliente.css">
+    <title>Control de productos</title>
+</head>
+<body>
+    <header class="navegador">
+        <div class="navegador__logoinput">
+         <a href="index.html"  class="link__logo"><img src="img/header/Logo (1).png" alt="logo" class="navegadorlogoinput__logo"></a>
+        </div>
+        <img src="img/header/Vector (1).png" alt="logo" class="navegador__icono">
+   </header>
+   <main class="clientes-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="table__column--p">Nombre</th>
+          <th class="table__column--g">Email</th>
+          <th class="table__column--m table__align--right">
+            <a
+              href="./registrar_cliente.html"
+              class="simple-button simple-button--add"
+              >Nuevo Cliente</a
+            >
+          </th>
+        </tr>
+      </thead>
+      <tbody data-table>
+        <tr>
+          <td class="td" data-td>Gabriela</td>
+          <td>gabriela@alura.com</td>
+          <td>
+            <ul class="table__button-control">
+              <li>
+                <a
+                  href="../screens/editar_cliente.html"
+                  class="simple-button simple-button--edit"
+                  >Editar</a
+                >
+              </li>
+              <li>
+                <button
+                  class="simple-button simple-button--delete"
+                  type="button"
+                >
+                  Eliminar
+                </button>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="modal-container modal--close">
+      <article class="modal">
+        <h2 class="modal__title">Eliminar</h2>
+        <button class="modal__close">X</button>
+        <p class="modal__text">¿Deseas continuar?</p>
+        <div class="modal__button-container">
+          <button class="modal__button modal__button--confirm">
+            Eliminar
+          </button>
+          <button class="modal__button">No eliminar</button>
+        </div>
+      </article>
+    </div>
+  </main>
+    
+</body>
+</html>
